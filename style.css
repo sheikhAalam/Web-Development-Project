@@ -112,23 +112,23 @@ header nav ul li a {
 }
 
 .Cybertruck {
-    background: url("images/Cybertruck.png") center/cover no-repeat;
+    background: url("/Web-Development-Project/images/Cybertruck.png") center/cover no-repeat;
 }
 
 .model3 {
-    background: url("images/Model3.avif") center/cover no-repeat;
+    background: url("/Web-Development-Project/images/Model3.avif") center/cover no-repeat;
 }
 
 .modelY {
-    background: url("images/ModelY.avif") center/cover no-repeat;
+    background: url("/Web-Development-Project/images/ModelY.avif") center/cover no-repeat;
 }
 
 .modelX {
-    background: url("images/ModelX.avif") center/cover no-repeat;
+    background: url("/Web-Development-Project/images/ModelX.avif") center/cover no-repeat;
 }
 
 .modelS {
-    background: url("images/ModelS.avif") center/cover no-repeat;
+    background: url("/Web-Development-Project/images/ModelS.avif") center/cover no-repeat;
 }
 
 .carname {
