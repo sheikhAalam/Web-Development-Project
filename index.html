@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tesla Homepage Clone</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+
+        <div id="accountPopup" class="popup">
+            <div class="popup-content">
+                <button id="closePopup" class="close"
+                    onclick="closePopup()">X</button>
+                <h2>Account Login</h2>
+                <form id="accountForm" onsubmit="return validateForm()">
+                    <input type="email" id="email" placeholder="Email"
+                        required><br>
+                    <input type="password" id="password" placeholder="Password"
+                        required><br>
+                    <button type="submit" class="submit">Login</button>
+                </form>
+                <p id="errorMessage" style="color: red; display: none;"></p>
+            </div>
+        </div>
+
+        <header>
+            <div class="logo"><img src="/images/logo.png" height="20px"></div>
+            <nav>
+                <ul>
+                    <li><a href="#Cybertruck">Cybertruck</a></li>
+                    <li><a href="#model3">Model 3</a></li>
+                    <li><a href="#modelX">Model X</a></li>
+                    <li><a href="#modelS">Model S</a></li>
+                    <li><a href="#modelY">Model Y</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <a href="https://www.tesla.com/support"><img
+                        src="/images/question-circle.svg" alt="Support"></a>
+                <img src="/images/globe.svg" alt="Region and Language"
+                    onclick="alert('Feature Coming Soon')"
+                    style="cursor: pointer;">
+                <img src="/images/person-circle.svg" alt="Account"
+                    onclick="openPopup()" style="cursor: pointer;">
+            </div>
+        </header>
+
+        <section class="cars Cybertruck" id="Cybertruck">
+            <div class="carname">
+                <h1>Cybertruck</h1>
+                <p>Lease From $729/mo</p>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/cybertruck/design"><button class="order">Order Now</button></a>
+                    <a href="https://www.tesla.com/cybertruck"><button>Learn More</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cars model3" id="model3">
+            <div class="carname">
+                <h1>Model 3</h1>
+                <p>As Low as 1.99% APR Available</p>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/model3/design"><button class="order">Order Now</button></a>
+                    <a href="https://www.tesla.com/model3"><button>Learn More</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cars modelX" id="modelX">
+            <div class="carname">
+                <h1>Model X</h1>
+                <p>3.99% APR Available</p>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/modelx/design"><button class="order">Order Now</button></a>
+                    <a href="https://www.tesla.com/modelx"><button>Learn More</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="cars modelS" id="modelS">
+            <div class="carname">
+                <h1>Model S</h1>
+                <p>3.99% APR Available</p>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/models/design"><button class="order">Order Now</button></a>
+                    <a href="https://www.tesla.com/models"><button>Learn More</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="cars modelY" id="modelY">
+            <div class="carname">
+                <h1>Model Y</h1>
+                <p>As Low as 1.99% APR Available</p>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/modely/design"><button class="order">Order Now</button></a>
+                    <a href="https://www.tesla.com/modely"><button>Learn More</button></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Tesla, Inc.</p>
+            <ul>
+                <li><a href="https://www.tesla.com/legal">Privacy & Legal</a></li>
+                <li><a href="https://www.tesla.com/contact">Contact</a></li>
+                <li><a href="https://www.tesla.com/blog">News</a></li>
+                <li><a href="https://www.tesla.com/findus/list"></a></li>
+            </ul>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
